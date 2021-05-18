@@ -42,7 +42,6 @@ func Fill_pts(pairs []Pair, orders []Order, drivers []Driver) [][]Pt {
 	return pts
 }
 
-// obtain the
 func Get_travel(pts [][]Pt, drivers []Driver) float64 {
 	ans, x := 0.0, 0
 	for i, e := range pts {
